@@ -61,12 +61,27 @@ $faq = [
   <body>
 
     <header>
-      <div class="header1">
-
+      <div class="header1 container_h">
+        <img src="img/logo.png" alt="logo_Google">
+        <h3>Privacy e termini</h3>
       </div>
       <div class="header2">
         <div class="h_left">
+          <div class="left">
+            <ul>
+              <li> <a href="#">Introduzione </a></li>
+              <li> <a href="#">Normative sulla privacy</a></li>
+              <li> <a href="#">Termini di servizio</a></li>
+              <li> <a href="#">Tecnologie</a></li>
+              <li> <a href="#">Domande frequenti</a></li>
+            </ul>
+          </div>
+          <div class="right">
+            <img src="img/avatar.jpg" alt="avatar">
+            <a href="#">quarelli.george@gmail.com</a>
+          </div>
 
+          </div>
         </div>
         <div class="h-right">
 
@@ -92,12 +107,18 @@ $faq = [
     <!-- alternativa metodo 2 -->
     <main>
 
-    <?php foreach ($faq as $domanda) {?>
-      <h2><?php echo $domanda["domanda"]; ?></h2>
-      <?php foreach ($domanda["risposta"] as $value) {?>
-        <p> <?php echo $value; ?> </p>
-      <?php } ?>
-    <?php } ?>
+    <div class="container">
+
+      <div id="faq">
+        <?php foreach ($faq as $domanda) {?>
+          <h2><?php echo $domanda["domanda"]; ?></h2>
+          <?php foreach ($domanda["risposta"] as $value) {?>
+            <p> <?php echo $value; ?> </p>
+          <?php } ?>
+        <?php } ?>
+      </div>
+
+    </div>
 
     </main>
 
