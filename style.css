@@ -99,3 +99,28 @@
   line-height: 23px;
   margin-bottom: 20px;
 }
+
+#footer {
+  height: 30px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #eeeeee;
+}
+
+.footer_left {
+
+}
+
+.footer_left li {
+  margin-top: 13px;
+  float: left;
+  list-style: none;
+
+}
+
+.footer_left a{
+  color: grey;
+  font-size: 11px;
+  padding-right: 15px;
+  text-decoration: none;
+  padding-bottom: 20px;
+}

@@ -122,5 +122,23 @@ $faq = [
 
     </main>
 
+    <footer>
+      <div id="footer">
+        <div class="container">
+          <div class="footer_left">
+            <ul>
+              <li><a href="#">Google</a></li>
+              <li><a href="#">Tutto su Google</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Termini</a></li>
+            </ul>
+          </div>
+          <div class="footer_right">
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
   </body>
 </html>
