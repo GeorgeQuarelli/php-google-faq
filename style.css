@@ -88,11 +88,14 @@
 }
 
 #faq h2{
+  font-size: 25px;
+  color: #3c4043;
   margin-top: 80px;
   margin-bottom: 20px;
 }
 
 #faq p{
+  color: grey;
   line-height: 23px;
   margin-bottom: 20px;
 }
